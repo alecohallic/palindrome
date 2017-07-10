@@ -2,7 +2,7 @@
 Javascript function that logs whether a parameter is a palindrome or not
 
     function palindrome(word){
-      var half1= word.slice(0,word.length/2);
+      var half1= word.slice(0,word.length/2).toUpperCase();
         if(word.length % 2 !==0){
         half1 = word.slice(0,(word.length/2)+1).toUpperCase();
         }
